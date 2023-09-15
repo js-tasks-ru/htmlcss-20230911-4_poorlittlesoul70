@@ -1,0 +1,82 @@
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    margin: 0 auto;
+    background-color: #040B1CFF;
+    display: block;
+    padding-top:24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.navigation {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    background-color: #5669ab;
+    display: block;
+    padding-top:24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+span {
+    margin-left: 24px;
+    margin-right: 24px;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+}
+
+body {
+    background-color: #d7dce5;
+    color: #040B1CFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+}
+
+article {
+    background-color: white;
+    display: block;
+    padding: 24px 16px;
+    border-radius: 24px;
+}
+
+ul {
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: #040B1CFF;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
