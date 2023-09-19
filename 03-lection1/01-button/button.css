@@ -1,1 +1,91 @@
-/* Стилизация кнопки */
+button {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.primary {
+    background-color: #4263EB;
+    color: white;
+    width: 190px;
+    padding: 15px;
+}
+
+.primary:hover {
+    background-color: #2342C0;
+}
+
+.primary:disabled {
+    color: white;
+    background-color: #4263EB;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.primary:active {
+    color: white;
+    background-color: #223DAC;
+}
+
+.secondary {
+    background-color: #7048E8;
+    color: white;
+    width: 190px;
+    padding: 15px;
+}
+
+.secondary:hover {
+    background-color: #5028C6;
+}
+
+.secondary:disabled {
+    color: white;
+    background-color: #7048E8;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.secondary:active {
+    color: white;
+    background-color: #4921be;
+}
+
+.alternate {
+    background-color: white;
+    color: #495057;
+    border: 1px #ACB5BD solid;
+    width: 189px;
+    padding: 14px;
+}
+
+.alternate:hover {
+    background-color: white;
+    border: 1px #212429 solid;
+    color: #495057;
+}
+
+.alternate:disabled {
+    background-color: white;
+    border: 1px #ACB5BD solid;
+    color: #495057;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.alternate:active {
+    background-color: white;
+    border: 1px #111517 solid;
+    color: #495057;
+}
