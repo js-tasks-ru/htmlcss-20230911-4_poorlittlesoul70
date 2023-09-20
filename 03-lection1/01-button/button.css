@@ -1,4 +1,19 @@
-button {
+:root {
+    --text-color-white: #FFFFFF;
+    --text-color-dark: #495057;
+    --backgroung-primary: #4263EB;
+    --backgroung-primary-hover: #2342C0;
+    --backgroung-primary-active: #223DAC;
+    --backgroung-secondary: #7048E8;
+    --backgroung-secondary-hover: #5028C6;
+    --backgroung-secondary-active: #4921be;
+    --background-alternative: #FFFFFF;
+    --border-alternative: 1px #ACB5BD solid;
+    --border-alternative-hover: 1px #212429 solid;
+    --border-alternative-active: 1px #111517 solid;
+}
+
+.button {
     text-align: center;
     font-family: Roboto, serif;
     font-size: 16px;
@@ -8,84 +23,62 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.container {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.primary {
-    background-color: #4263EB;
-    color: white;
     width: 190px;
     padding: 15px;
 }
 
-.primary:hover {
-    background-color: #2342C0;
+.button_primary {
+    background-color: var(--backgroung-primary);
+    color: var(--text-color-white);
 }
 
-.primary:disabled {
-    color: white;
-    background-color: #4263EB;
+.button_primary:hover {
+    background-color: var(--backgroung-primary-hover);
+}
+
+.button_primary:disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
-.primary:active {
-    color: white;
-    background-color: #223DAC;
+.button_primary:active {
+    background-color: var(--backgroung-primary-active);
 }
 
-.secondary {
-    background-color: #7048E8;
-    color: white;
-    width: 190px;
-    padding: 15px;
+.button_secondary {
+    background-color: var(--backgroung-secondary);
+    color: var(--text-color-white);
 }
 
-.secondary:hover {
-    background-color: #5028C6;
+.button_secondary:hover {
+    background-color: var(--backgroung-secondary-hover);
 }
 
-.secondary:disabled {
-    color: white;
-    background-color: #7048E8;
+.button_secondary:disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
-.secondary:active {
-    color: white;
-    background-color: #4921be;
+.button_secondary:active {
+    background-color: var(--backgroung-secondary-active);
 }
 
-.alternate {
-    background-color: white;
-    color: #495057;
-    border: 1px #ACB5BD solid;
-    width: 189px;
-    padding: 14px;
+.button_alternate {
+    background-color: var( --background-alternative);
+    color: var(--text-color-dark);
+    border: var(--border-alternative);
 }
 
-.alternate:hover {
-    background-color: white;
-    border: 1px #212429 solid;
-    color: #495057;
+.button_alternate:hover {
+    border: var(--border-alternative-hover);
 }
 
-.alternate:disabled {
-    background-color: white;
-    border: 1px #ACB5BD solid;
-    color: #495057;
+.button_alternate:disabled {
+    border: var(--border-alternative);
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
-.alternate:active {
-    background-color: white;
-    border: 1px #111517 solid;
-    color: #495057;
+.button_alternate:active {
+    border: var(--border-alternative-active);
 }
