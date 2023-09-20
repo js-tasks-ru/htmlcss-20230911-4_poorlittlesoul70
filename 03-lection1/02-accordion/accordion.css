@@ -1,4 +1,9 @@
-details {
+:root {
+    --color-title: #212429;
+    --color-text: #495057;
+}
+
+.accordion {
     font-family: Inter, serif;
     font-size: 16px;
     font-style: normal;
@@ -11,19 +16,13 @@ details {
     padding: 24px 32px;
 }
 
-summary {
-    color: #212429;
+.accordion_title {
+    color:var(--color-title);
     cursor: pointer;
     list-style: none;
 }
 
-p {
-    color: #495057;
+.accordion_text {
+    color: var(--color-text);
     cursor: default;
-}
-
-.container {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
 }
