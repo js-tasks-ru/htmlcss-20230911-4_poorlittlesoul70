@@ -1,21 +1,6 @@
-:root {
-    --text-color-white: #FFFFFF;
-    --text-color-dark: #495057;
-    --backgroung-primary: #4263EB;
-    --backgroung-primary-hover: #2342C0;
-    --backgroung-primary-active: #223DAC;
-    --backgroung-secondary: #7048E8;
-    --backgroung-secondary-hover: #5028C6;
-    --backgroung-secondary-active: #4921be;
-    --background-alternative: #FFFFFF;
-    --border-alternative: 1px #ACB5BD solid;
-    --border-alternative-hover: 1px #212429 solid;
-    --border-alternative-active: 1px #111517 solid;
-}
-
 .button {
     text-align: center;
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
@@ -29,7 +14,7 @@
 
 .button_primary {
     background-color: var(--backgroung-primary);
-    color: var(--text-color-white);
+    color: var(--white);
 }
 
 .button_primary:hover {
@@ -46,8 +31,8 @@
 }
 
 .button_secondary {
-    background-color: var(--backgroung-secondary);
-    color: var(--text-color-white);
+    background-color: var(--purple);
+    color: var(--white);
 }
 
 .button_secondary:hover {
@@ -64,21 +49,22 @@
 }
 
 .button_alternate {
-    background-color: var( --background-alternative);
-    color: var(--text-color-dark);
-    border: var(--border-alternative);
+    background-color: var(--white);
+    color: var(--dark-4);
+    border-color: var(--grey-3);
+    border-width: 1px;
+    border-style: solid;
 }
 
 .button_alternate:hover {
-    border: var(--border-alternative-hover);
+    border-color: var(--black);
 }
 
 .button_alternate:disabled {
-    border: var(--border-alternative);
     opacity: 0.5;
     pointer-events: none;
 }
 
 .button_alternate:active {
-    border: var(--border-alternative-active);
+    border-color: var(--border-alternative-active) solid;
 }
