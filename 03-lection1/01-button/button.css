@@ -50,7 +50,7 @@
 
 .button_alternate {
     background-color: var(--white);
-    color: var(--dark-4);
+    color: var(--grey-4);
     border-color: var(--grey-3);
     border-width: 1px;
     border-style: solid;
