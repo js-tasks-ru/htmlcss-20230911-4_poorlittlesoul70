@@ -8,8 +8,12 @@
     border-radius: 8px;
     cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    width: 190px;
-    padding: 15px;
+    padding: 15px 15px 14px;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 .button_primary {
@@ -19,11 +23,6 @@
 
 .button_primary:hover {
     background-color: var(--backgroung-primary-hover);
-}
-
-.button_primary:disabled {
-    opacity: 0.5;
-    pointer-events: none;
 }
 
 .button_primary:active {
@@ -37,11 +36,6 @@
 
 .button_secondary:hover {
     background-color: var(--backgroung-secondary-hover);
-}
-
-.button_secondary:disabled {
-    opacity: 0.5;
-    pointer-events: none;
 }
 
 .button_secondary:active {
@@ -58,11 +52,6 @@
 
 .button_alternate:hover {
     border-color: var(--black);
-}
-
-.button_alternate:disabled {
-    opacity: 0.5;
-    pointer-events: none;
 }
 
 .button_alternate:active {
