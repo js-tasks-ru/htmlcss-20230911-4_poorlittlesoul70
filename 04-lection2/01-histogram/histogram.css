@@ -52,18 +52,18 @@
     flex:1 1 calc(33.33% - 30px);
 }
 
-.height_1 {
+.large {
     height: 50px;
 }
 
-.height_2 {
+.medium {
     height: 35px;
 }
 
-.height_3 {
+.regular {
     height: 22px;
 }
 
-.height_4 {
+.small {
     height: 11px;
 }
