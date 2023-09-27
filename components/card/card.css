@@ -1,0 +1,23 @@
+.card {
+    padding-top: 68px;
+    padding-bottom: 204px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.preview-card {
+    background-color: var(--white);
+    width: 302px;
+    height: 319px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.preview-card-title {
+    margin: 0;
+}

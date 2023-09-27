@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: var(--backgroung-page);
+}
+
+.container {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    background-color: var(--white);
+    padding-top: 96px;
+    padding-bottom: 77px;
+}
+
+.header_title {
+    color: var(--black);
+    font-size: 50px;
+    line-height: 64px;
+    margin: 0;
+}
+
+.main {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--grey-2);
+    width: 100%;
+}
