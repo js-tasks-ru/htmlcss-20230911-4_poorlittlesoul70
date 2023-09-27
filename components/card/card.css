@@ -11,7 +11,7 @@
     width: 302px;
     height: 319px;
     border-radius: 12px;
-    box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+    box-shadow: 0 2px 4px 0 rgba(33, 36, 41, 0.05);
     padding: 24px;
     display: flex;
     justify-content: center;
