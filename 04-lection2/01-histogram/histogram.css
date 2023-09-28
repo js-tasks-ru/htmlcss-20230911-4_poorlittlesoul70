@@ -1,4 +1,4 @@
-.banner {
+.histogram {
     font-family: 'Roboto', sans-serif;
     background-color: var(--white);
     border: 1px solid;
@@ -9,13 +9,13 @@
     padding: 16px 24px 24px;
 }
 
-.banner__top {
+.histogram__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner__top_header {
+.histogram__header {
     color: var(--black);
     font-size: 16px;
     font-weight: 400;
@@ -23,7 +23,7 @@
     margin: 0 0 6px;
 }
 
-.banner__top_link {
+.histogram__link {
     color: var(--backgroung-primary);
     text-decoration: none;
     font-size: 16px;
@@ -32,14 +32,14 @@
     margin: 0;
 }
 
-.banner__counter {
+.histogram__counter {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
     margin: 0;
 }
 
-.banner__graph {
+.histogram__graph {
     display: flex;
     flex-direction: row;
     gap: 1px;
@@ -48,7 +48,7 @@
     height: 50px;
 }
 
-.banner__graph_item {
+.histogram__graph-item {
     background-color: var(--backgroung-primary);
     width: 100%;
 }
