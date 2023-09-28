@@ -4,7 +4,7 @@
     padding-bottom: 77px;
 }
 
-.header_title {
+.header__title {
     color: var(--black);
     font-size: 50px;
     line-height: 64px;

@@ -1,4 +1,4 @@
-.card {
+.cards {
     padding-top: 68px;
     padding-bottom: 204px;
     display: flex;
@@ -6,18 +6,22 @@
     gap: 30px;
 }
 
-.preview-card {
+.card__preview {
     background-color: var(--white);
-    width: 302px;
-    height: 319px;
+    width: 350px;
+    height: 367px;
     border-radius: 12px;
     box-shadow: 0 2px 4px 0 rgba(33, 36, 41, 0.05);
     padding: 24px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-sizing: border-box;
 }
 
-.preview-card-title {
+.card__title {
     margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
