@@ -1,5 +1,10 @@
 @import '../fonts/fonts.css';
 
+@import '../../components/card/card.css';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -17,6 +22,7 @@
     --backgroung-secondary-hover: #5028C6;
     --backgroung-secondary-active: #4921be;
     --border-alternative-active:#111517;
+    --backgroung-page: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -25,7 +31,11 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
